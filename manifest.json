@@ -1,0 +1,15 @@
+{
+  "name"           : "Chrome-Deltek-Support",
+  "description"    : "Hack for Deltek to support WebKit",
+  "version"        : "0.0.1",
+  "homepage_url"   : "https://github.com/jrawlings/Chrome-Deltek-Support",
+  "content_scripts": [
+    {
+      "matches"    : ["http://*/DeltekTC/*", "https://*/DeltekTC/*"],
+      "js"         : ["js/deltek.js"],
+      "run_at"     : "document_end",
+      "all_frames" : true
+    }
+  ],
+  "permissions" : []
+}
