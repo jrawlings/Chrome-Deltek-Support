@@ -18,7 +18,7 @@ Installation
 
 You can clone this repository and load the extension yourself following these instructions:
 
-http://code.google.com/chrome/extensions/getstarted.html#load
+https://developer.chrome.com/extensions/getstarted#unpacked
 
 Or you can download the pre-built extension by going to the following link and downloading the Chrome-Deltek-Support.crx extension.
 
